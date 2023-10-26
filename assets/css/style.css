@@ -1,11 +1,14 @@
 * {
-    width: 100%;
-    max-width: 900px;
-    margin: 20px auto;
     background-color: #F3F5F7;
     color: #010101;
     font-family:'Atkinson Hyperlegible', Helvetica, sans-serif;
     letter-spacing: 1px;
+}
+
+.main {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
 }
 
 section {
@@ -47,7 +50,7 @@ section {
 }
 
 @media only screen and (max-width: 600px) {
-    * {
+    .main {
         width: 100%;
         max-width: 99%;
         margin: 20px 0 !important;
@@ -55,7 +58,7 @@ section {
     }
 
     section {
-        margin: 20px auto 30px auto !important;
+        margin: 20px 0 30px 0 !important;
     }
     
     .title {
