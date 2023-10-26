@@ -1,0 +1,25 @@
+{
+    "short_name": "Digital Resume",
+    "name": "Sahil Sheikh'd Digital Resume",
+    "icons": [
+      {
+        "src": "../img/profile.jpg",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "../img/profile.jpg",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "../img/profile.jpg",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#090909",
+    "background_color": "#ffffff"
+  }

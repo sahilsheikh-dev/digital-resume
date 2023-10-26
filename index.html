@@ -3,24 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/profile.jpg" />
+    <link rel="apple-touch-icon" href="assets/img/profile.jpg" />
+    <link rel="manifest" href="assets/json/manifest.json" />
+    <meta name="theme-color" content="#000000" />
+    <meta property="og:image" content="assets/img/profile.jpg" />
+    <meta property="og:url" content="https://sahilsk.dev/" />
+    <meta property="og:title" content="Sahil A. Sheikh" />
+    <meta
+      property="og:description"
+      content="👨‍💻 Software Engineer 💻 Freelancer"
+    />
+    <title>Software Engineer || Sahil Sheikh</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Atkinson Hyperlegible' rel='stylesheet'>
-
 
     <title>Sahil Sheikh</title>
 </head>
 <body>
 
     <section class="main">
-        <section>
+        <section id="about" class="about">
             <h1 class="title">Hey 👋, this is Sahil</h1>
             <p class="details">
                 Bangalore based Software Engineer, have <span id="experience-year"></span> Years of Experience in Cloud and DevOps. Currently managing Avaya's Cloud Infrastructure. I have proven experience in Cloud, Software Development and Development & Operations. Additionally, I excel facilitating effective communication and collaboration among the development team, architects, product owners, and business owners.
             </p>
         </section>
     
-        <section>
+        <section id="skills" class="skills">
             <h1 class="title">💪 Technical Skills</h1>
             <ul>
                 <li class="bullet-point">Containerizations Tool: Docker, Kubernetes</li>
@@ -33,8 +44,35 @@
                 <li class="bullet-point">DevOps Tools: Ansible, Linux</li>
             </ul>
         </section>
+
+        <section class="experience" id="experience">
+            <h1 class="title">👨‍💻 Work Experience</h1>
+            <div class="experience">
+                <h3 class="subtitle">
+                    Betsol Software, Bengaluru, KA <br>
+                    Associate Software Engineer, <br class="d-small"> July 2022 - Present
+                </h3>
+                <ul>
+                    <li class="bullet-point">
+                        Created and configured Dockerfiles and docker-compose.yaml files to automate container creation for java services, improving the efficiency and reliability of the image creation process.
+                    </li>
+                    <li class="bullet-point">
+                        Successfully integrated Java Micro-Services like CRM Middleware and Display Screen Pop widget application in the client's environment for telephonic purposes, which can help an Agent to get user data 80% faster.
+                    </li>
+                    <li class="bullet-point">
+                        Deployed Kubernetes Clusters with master-slave architecture for deployment and load balancing of the CCAI app.
+                    </li>
+                    <li class="bullet-point">
+                        Implemented a Video Conferencing application for medical conferences in AWS, it also improved the communication rate & made it 3 times easier for them via chatbot and email template services.
+                    </li>
+                    <li class="bullet-point">
+                        Installed, configured, and troubleshooted servers and VMware Cloud Infrastructure, managed vCenter Activities, vMotion, Clone, Template Creation, Hardware/VTool upgrade, snapshot, etc. to improve VMs activity time by 40%.
+                    </li>
+                </ul>
+            </div>
+        </section>
     
-        <section>
+        <section id="focus" class="focus">
             <h1 class="title">🎯 Focus</h1>
             <ul>
                 <li class="bullet-point">Cloud (Amazon Web Services and Microsoft Azure)</li>
@@ -43,7 +81,7 @@
             </ul>
         </section>
     
-        <section>
+        <section id="social" class="social">
             <h1 class="title">🚀 Find me on</h1>
             <div class="social-icons">
                 <a href="https://github.com/sahilsheikh-dev" target="_blank" class="social-link">
@@ -58,12 +96,15 @@
             </div>
         </section>
     
-    
-        <section>
+        <section id="support" class="support">
             <h1 class="title">💸 Support Me</h1>
-                <a href="https://www.buymeacoffee.com/sahilsheikh"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" style="max-width: 200px;" /></a>
+            <a href="https://www.buymeacoffee.com/sahilsheikh"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" style="max-width: 200px;" /></a>
         </section>
     </section>
+
+    <footer id="footer" class="footer">
+        <a href="mailto:sahilsheikh.dev@gmail.com">📧 sahilsheikh.dev@gmail.com</a>
+    </footer>
 
     <script src="assets/js/experience.js"></script>
 
