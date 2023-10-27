@@ -17,6 +17,10 @@ section {
     margin: 30px auto;
 }
 
+a {
+    color: #3b82f6;
+}
+
 .d-small {
     display: none;
 }
