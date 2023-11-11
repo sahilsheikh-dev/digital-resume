@@ -20,4 +20,4 @@ jobs:
         aws-region: ${{ secrets.AWS_REGION }}
 
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync ./ s3://${{ AWS_S3_BUCKET }} --delete
+      run: aws s3 sync ./ s3://sahil-portfolio-bucket --delete
